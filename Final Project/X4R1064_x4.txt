@@ -1,0 +1,319 @@
+REQUEST        1064001   20190703          3     185219               0  0    0
+ENTRY            E1230     910529              20050926       0000E1230000    1
+SUBENT        E1230001     910529              20050926       0000E1230001    1
+BIB                 11         18                                 E1230001    2
+TITLE       STRENGTH FUNCTION OF THE D5/2 HOLE STATE IN 39CA      E1230001    3
+AUTHOR     (M.MATOBA,H.IJIRI,H.OHGAKI,S.UEHARA,T.FUJIKI,Y.UOZUMI, E1230001    4
+           H.KUGIMIYA,N.KOORI,I.KUMABE,M.NAKANO)                  E1230001    5
+INSTITUTE  (2JPNKYU)                                              E1230001    6
+           (2JPNJPN)                                              E1230001    7
+REFERENCE  (J,PR/C,39,1658,89)                                    E1230001    8
+FACILITY   (CYCLO,2JPNOSA)                                        E1230001    9
+DETECTOR   (MAGSP)                                                E1230001   10
+            OVERALL-ENERGY-RESOLUTION IS 30.KEV                   E1230001   11
+INC-SOURCE  BEAM-POLARIZATION IS NOT GIVEN                        E1230001   12
+SAMPLE      TARGET IS NATURAL                                     E1230001   13
+            CHEMICAL-FORM OF TARGET IS ELEMENT                    E1230001   14
+            PHYSICAL-FORM OF TARGET IS SLD                        E1230001   15
+            TARGET-THICKNESS=1.1MG/CM**2                          E1230001   16
+            TARGET-BACKING IS SELF                                E1230001   17
+PART-DET   (D)                                                    E1230001   18
+STATUS      DATA CONVERTED FROM NRDF                              E1230001   19
+HISTORY    (910529T) CONVERTED FROM NRDF DATA NO. D1230           E1230001   20
+ENDBIB              18                                            E1230001   21
+NOCOMMON             0          0                                 E1230001   22
+ENDSUBENT           21                                            E123000199999
+SUBENT        E1230002     910529              20050926       0000E1230002    1
+BIB                  4          4                                 E1230002    2
+REACTION   (20-CA-40(P,D)20-CA-39,PAR,POL/DA)                     E1230002    3
+LEVEL-PROP (20-CA-39,E-LVL=0.0MEV,SPIN=1.5,PARITY=+1.)            E1230002    4
+FLAG       (1.) DATA ERROR IS SMALLER THAN DATA POINT             E1230002    5
+STATUS     (CURVE) DATA TAKEN FROM GRAPH                          E1230002    6
+ENDBIB               4                                            E1230002    7
+COMMON               2          3                                 E1230002    8
+EN         E-LVL                                                  E1230002    9
+MEV        MEV                                                    E1230002   10
+65.         0.0                                                   E1230002   11
+ENDCOMMON            3                                            E1230002   12
+DATA                 4         14                                 E1230002   13
+ANG-CM     DATA       DATA-ERR   FLAG                             E1230002   14
+ADEG       NO-DIM     NO-DIM     NO-DIM                           E1230002   15
+      5.390  1.962E-01                    1.                      E1230002   16
+      8.321  5.169E-02                    1.                      E1230002   17
+     11.366 -1.307E-01                    1.                      E1230002   18
+     14.765 -3.060E-01                    1.                      E1230002   19
+     17.467 -3.913E-01                    1.                      E1230002   20
+     20.772 -3.655E-01                    1.                      E1230002   21
+     24.102 -1.289E-01                    1.                      E1230002   22
+     27.307  5.553E-02                    1.                      E1230002   23
+     30.138  5.539E-02                    1.                      E1230002   24
+     33.429 -3.707E-02                    1.                      E1230002   25
+     36.606 -9.639E-02                    1.                      E1230002   26
+     39.440 -6.339E-02  0.166E-01                                 E1230002   27
+     42.520  5.717E-02  0.237E-01                                 E1230002   28
+     46.660  1.635E-01  0.213E-01                                 E1230002   29
+ENDDATA             16                                            E1230002   30
+ENDSUBENT           29                                            E123000299999
+ENDENTRY             2                                            E123099999999
+ENTRY            E1556   20001017   20010402   20050926       0000E1556000    1
+SUBENT        E1556001   20001017   20010402   20050926       0000E1556001    1
+BIB                 11         19                                 E1556001    2
+TITLE       40CA(P,D)39CA REACTION AT 65 MEV                      E1556001    3
+AUTHOR     (M.MATOBA,O.IWAMOTO,Y.UOZUMI,T.SAKAE,N.KOORI,T.FUJIKI, E1556001    4
+           H.OHGAKI,H.IJIRI,T.MAKI,M.NAKAMOTO)                    E1556001    5
+INSTITUTE  (2JPNJPN)                                              E1556001    6
+REFERENCE  (J,PR/C,48,95,1993)                                    E1556001    7
+FACILITY   (CYCLO,2JPNOSA)                                        E1556001    8
+DETECTOR    UNCERTAIN                                             E1556001    9
+INC-SOURCE  CHARGE OF INCIDENT-ION IS 20+.                        E1556001   10
+            BEAM-POLARIZATION IS NOT GIVEN                        E1556001   11
+SAMPLE      TARGET IS NATURAL                                     E1556001   12
+            CHEMICAL-FORM OF TARGET IS ELEMENT                    E1556001   13
+            PHYSICAL-FORM OF TARGET IS SLD                        E1556001   14
+            TARGET-THICKNESS=1.10MG/CM**2                         E1556001   15
+            TARGET-BACKING IS SELF                                E1556001   16
+            TARGET-ALIGNMENT IS 0%                                E1556001   17
+PART-DET   (D)                                                    E1556001   18
+STATUS      DATA CONVERTED FROM NRDF                              E1556001   19
+HISTORY    (19980422T) CONVERTED FROM NRDF DATA NO. D1556         E1556001   20
+           (20001017A) DATE is corrected                          E1556001   21
+ENDBIB              19                                            E1556001   22
+COMMON               1          3                                 E1556001   23
+POL-TR                                                            E1556001   24
+NO-DIM                                                            E1556001   25
+0.                                                                E1556001   26
+ENDCOMMON            3                                            E1556001   27
+ENDSUBENT           26                                            E155600199999
+SUBENT        E1556003   20001017   20010402   20050926       0000E1556003    1
+BIB                  2          2                                 E1556003    2
+REACTION   (20-CA-40(P,D)20-CA-39,PAR,DA)                         E1556003    3
+LEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                E1556003    4
+ENDBIB               2                                            E1556003    5
+COMMON               2          3                                 E1556003    6
+EN         E-LVL                                                  E1556003    7
+MEV        MEV                                                    E1556003    8
+65.        0.0                                                    E1556003    9
+ENDCOMMON            3                                            E1556003   10
+DATA                 2         14                                 E1556003   11
+ANG        DATA                                                   E1556003   12
+ADEG       MB/SR                                                  E1556003   13
+  5.674E+00  6.705E+00                                            E1556003   14
+  9.155E+00  7.977E+00                                            E1556003   15
+  1.171E+01  8.996E+00                                            E1556003   16
+  1.455E+01  7.054E+00                                            E1556003   17
+  1.721E+01  5.249E+00                                            E1556003   18
+  2.085E+01  3.078E+00                                            E1556003   19
+  2.438E+01  2.109E+00                                            E1556003   20
+  2.732E+01  1.872E+00                                            E1556003   21
+  2.994E+01  1.708E+00                                            E1556003   22
+  3.305E+01  1.429E+00                                            E1556003   23
+  3.635E+01  1.002E+00                                            E1556003   24
+  3.983E+01  6.950E-01                                            E1556003   25
+  4.279E+01  5.719E-01                                            E1556003   26
+  4.640E+01  4.923E-01                                            E1556003   27
+ENDDATA             16                                            E1556003   28
+ENDSUBENT           27                                            E155600399999
+SUBENT        E1556005   20001017   20010402   20050926       0000E1556005    1
+BIB                  2          2                                 E1556005    2
+REACTION   (20-CA-40(P,D)20-CA-39,PAR,DA)                         E1556005    3
+LEVEL-PROP (20-CA-39,E-LVL=5.128,SPIN=2.5,PARITY=+1.)             E1556005    4
+ENDBIB               2                                            E1556005    5
+COMMON               2          3                                 E1556005    6
+EN         E-LVL                                                  E1556005    7
+MEV        MEV                                                    E1556005    8
+65.        5.128                                                  E1556005    9
+ENDCOMMON            3                                            E1556005   10
+DATA                 4         14                                 E1556005   11
+ANG        DATA       +DATA-ERR  -DATA-ERR                        E1556005   12
+ADEG       MB/SR      MB/SR      MB/SR                            E1556005   13
+  4.592E+00  9.898E-01                                            E1556005   14
+  7.901E+00  1.317E+00                                            E1556005   15
+  1.100E+01  1.609E+00                                            E1556005   16
+  1.376E+01  1.641E+00                                            E1556005   17
+  1.638E+01  1.343E+00                                            E1556005   18
+  1.976E+01  8.871E-01                                            E1556005   19
+  2.351E+01  5.329E-01                                            E1556005   20
+  2.664E+01  4.332E-01                                            E1556005   21
+  2.936E+01  4.313E-01                                            E1556005   22
+  3.217E+01  4.210E-01 +1.717E-02 -2.136E-02                      E1556005   23
+  3.541E+01  3.591E-01                                            E1556005   24
+  3.906E+01  2.365E-01                                            E1556005   25
+  4.217E+01  1.739E-01 +8.546E-03 -9.376E-03                      E1556005   26
+  4.577E+01  1.387E-01                                            E1556005   27
+ENDDATA             16                                            E1556005   28
+ENDSUBENT           27                                            E155600599999
+SUBENT        E1556006   20001017   20010402   20050926       0000E1556006    1
+BIB                  2          2                                 E1556006    2
+REACTION   (20-CA-40(P,D)20-CA-39,PAR,POL/DA,,ANA)                E1556006    3
+LEVEL-PROP (20-CA-39,E-LVL=5.128,SPIN=2.5,PARITY=+1.)             E1556006    4
+ENDBIB               2                                            E1556006    5
+COMMON               2          3                                 E1556006    6
+EN         E-LVL                                                  E1556006    7
+MEV        MEV                                                    E1556006    8
+65.        5.128                                                  E1556006    9
+ENDCOMMON            3                                            E1556006   10
+DATA                 4         14                                 E1556006   11
+ANG        DATA       +DATA-ERR  -DATA-ERR                        E1556006   12
+ADEG       NO-DIM     NO-DIM     NO-DIM                           E1556006   13
+  5.299E+00  9.098E-02 +1.381E-02 -7.789E-03                      E1556006   14
+  7.702E+00  1.605E-01 +6.084E-03 -8.630E-03                      E1556006   15
+  1.072E+01  1.751E-01 +6.084E-03 -1.124E-02                      E1556006   16
+  1.429E+01  1.503E-01                                            E1556006   17
+  1.788E+01  7.972E-02                                            E1556006   18
+  2.099E+01  8.888E-03                                            E1556006   19
+  2.367E+01 -6.046E-02                                            E1556006   20
+  2.637E+01  2.737E-02 +8.716E-03 -3.474E-03                      E1556006   21
+  2.992E+01  1.226E-01                                            E1556006   22
+  3.358E+01  1.660E-01                                            E1556006   23
+  3.661E+01  1.668E-01                                            E1556006   24
+  3.927E+01  1.527E-01 +8.630E-03 -1.735E-02                      E1556006   25
+  4.191E+01  1.516E-01 +1.126E-02 -7.767E-03                      E1556006   26
+  4.663E+01  2.569E-01 +1.122E-02 -1.124E-02                      E1556006   27
+ENDDATA             16                                            E1556006   28
+ENDSUBENT           27                                            E155600699999
+SUBENT        E1556008   20001017   20010402   20050926       0000E1556008    1
+BIB                  2          2                                 E1556008    2
+REACTION   (20-CA-40(P,D)20-CA-39,PAR,POL/DA,,ANA)                E1556008    3
+LEVEL-PROP (20-CA-39,E-LVL=2.463,SPIN=0.5,PARITY=-1.)             E1556008    4
+ENDBIB               2                                            E1556008    5
+COMMON               2          3                                 E1556008    6
+EN         E-LVL                                                  E1556008    7
+MEV        MEV                                                    E1556008    8
+65.        2.463                                                  E1556008    9
+ENDCOMMON            3                                            E1556008   10
+DATA                 4         14                                 E1556008   11
+ANG        DATA       +DATA-ERR  -DATA-ERR                        E1556008   12
+ADEG       NO-DIM     NO-DIM     NO-DIM                           E1556008   13
+  5.334E+00 -9.102E-02 +1.210E-02 -6.938E-03                      E1556008   14
+  8.445E+00 -1.868E-01                                            E1556008   15
+  1.075E+01  3.523E-02 +6.988E-03 -4.296E-03                      E1556008   16
+  1.364E+01  4.972E-01 +1.383E-02 -7.852E-03                      E1556008   17
+  1.733E+01  3.828E-01                                            E1556008   18
+  2.074E+01  3.261E-01 +1.126E-02 -5.160E-03                      E1556008   19
+  2.379E+01  2.502E-01 +6.913E-03 -8.691E-03                      E1556008   20
+  2.637E+01  1.956E-01 +1.464E-02 -2.165E-02                      E1556008   21
+  2.935E+01  3.558E-01 +3.360E-02 -3.639E-02                      E1556008   22
+  3.262E+01  8.240E-01 +3.723E-02 -4.506E-02                      E1556008   23
+  3.625E+01  7.277E-01 +1.815E-02 -1.990E-02                      E1556008   24
+  3.925E+01  6.259E-01 +9.456E-03 -2.158E-02                      E1556008   25
+  4.181E+01  5.332E-01 +2.175E-02 -2.506E-02                      E1556008   26
+  4.620E+01  3.596E-01 +2.496E-02 -3.123E-02                      E1556008   27
+ENDDATA             16                                            E1556008   28
+ENDSUBENT           27                                            E155600899999
+ENDENTRY             5                                            E155699999999
+ENTRY            O0052     941103              20050926       0000O0052000    1
+SUBENT        O0052001     941103              20050926       0000O0052001    1
+BIB                 10         19                                 O0052001    2
+TITLE      CROSS SECTION AND ANALYZING POWER MEASUREMENTS FOR THE O0052001    3
+            (P,D) REACTION ON O-16 AND CA-40 AT 200 MEV.          O0052001    4
+AUTHOR     (R.ABEGG,D.A.HUTCHEON,C.A.MILLER,L.ANTONUK,J.M.GAMERON,O0052001    5
+           G.GAILLARD,J.M.GREBEN,P.KITCHING,R.P.LILJESTRAND,      O0052001    6
+           W.J.MCDONALD,W.C.OLSEN,G.M.STINSON,J.TINSLEY,P.D.KUNZ) O0052001    7
+INSTITUTE  (1CANUBC)                                              O0052001    8
+           (1CANALA)                                              O0052001    9
+           (1USAORE)                                              O0052001   10
+           (1USACLU)                                              O0052001   11
+HISTORY    (941102C)                                              O0052001   12
+           (941219U)                                              O0052001   13
+REFERENCE  (J,PR/C,39,65,89)                                      O0052001   14
+FACILITY   (CYCLO,1CANUBC)                                        O0052001   15
+DETECTOR   (MAGSP)                                                O0052001   16
+METHOD     (TOF).TIME-OF-FLIGHT AND ENERGY LOSS MEASUREMENTS      O0052001   17
+           ALLOWED A CLEAN SEPARATION OF THE DEUTRONS FROM PROTONSO0052001   18
+           AND TRITONS.                                           O0052001   19
+ADD-RES    (COMP).DWBA CALCULATIONS.                              O0052001   20
+STATUS     (CURVE).BY CAJAD.                                      O0052001   21
+ENDBIB              19                                            O0052001   22
+COMMON               1          3                                 O0052001   23
+EN                                                                O0052001   24
+MEV                                                               O0052001   25
+       200.                                                       O0052001   26
+ENDCOMMON            3                                            O0052001   27
+ENDSUBENT           26                                            O005200199999
+SUBENT        O0052004     941103              20050926       0000O0052004    1
+BIB                  5          6                                 O0052004    2
+REACTION   (20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052004    3
+SAMPLE      50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052004    4
+LEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                O0052004    5
+EN-SEC     (E-LVL,20-CA-39)                                       O0052004    6
+ERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.               O0052004    7
+           (DATA-ERR).DATA-POINT READER UNCERTAINTY.              O0052004    8
+ENDBIB               6                                            O0052004    9
+COMMON               3          3                                 O0052004   10
+DATA-ERR   E-LVL      ANG-ERR                                     O0052004   11
+PER-CENT   MEV        ADEG                                        O0052004   12
+        10.         0.        0.8                                 O0052004   13
+ENDCOMMON            3                                            O0052004   14
+DATA                 2          9                                 O0052004   15
+ANG-CM     DATA                                                   O0052004   16
+ADEG       MB/SR                                                  O0052004   17
+         4.       2.22                                            O0052004   18
+        6.3       1.53                                            O0052004   19
+        8.2       1.06                                            O0052004   20
+       10.5       0.61                                            O0052004   21
+       12.2       0.37                                            O0052004   22
+       14.5      0.237                                            O0052004   23
+       16.8      0.155                                            O0052004   24
+       18.6      0.113                                            O0052004   25
+       20.3 0.68  E-01                                            O0052004   26
+ENDDATA             11                                            O0052004   27
+ENDSUBENT           26                                            O005200499999
+SUBENT        O0052005     941103              20050926       0000O0052005    1
+BIB                  5          6                                 O0052005    2
+REACTION   (20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052005    3
+SAMPLE      50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052005    4
+LEVEL-PROP (20-CA-39,E-LVL=2.47,SPIN=0.5,PARITY=+1.)              O0052005    5
+EN-SEC     (E-LVL,20-CA-39)                                       O0052005    6
+ERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.               O0052005    7
+           (DATA-ERR).DATA-POINT READER UNCERTAINTY.              O0052005    8
+ENDBIB               6                                            O0052005    9
+COMMON               3          3                                 O0052005   10
+DATA-ERR   E-LVL      ANG-ERR                                     O0052005   11
+PER-CENT   MEV        ADEG                                        O0052005   12
+        10.       2.47        0.8                                 O0052005   13
+ENDCOMMON            3                                            O0052005   14
+DATA                 2          9                                 O0052005   15
+ANG-CM     DATA                                                   O0052005   16
+ADEG       MB/SR                                                  O0052005   17
+        4.3       1.17                                            O0052005   18
+        6.5       0.86                                            O0052005   19
+        8.8       0.59                                            O0052005   20
+       11.1        0.4                                            O0052005   21
+       12.7      0.288                                            O0052005   22
+       14.9      0.223                                            O0052005   23
+       17.2      0.164                                            O0052005   24
+       19.5      0.104                                            O0052005   25
+       21.3 0.62  E-01                                            O0052005   26
+ENDDATA             11                                            O0052005   27
+ENDSUBENT           26                                            O005200599999
+SUBENT        O0052008     941103              20050926       0000O0052008    1
+BIB                  5          7                                 O0052008    2
+REACTION   (20-CA-40(P,D)20-CA-39,PAR,POL/DA,,ANA,EXP)            O0052008    3
+SAMPLE      50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052008    4
+LEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                O0052008    5
+EN-SEC     (E-LVL,20-CA-39)                                       O0052008    6
+ERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.               O0052008    7
+           (+DATA-ERR).THE UNCERTAINTY IS REPORTED BY AUTHORS.    O0052008    8
+           (-DATA-ERR).SEE ABOVE.                                 O0052008    9
+ENDBIB               7                                            O0052008   10
+COMMON               2          3                                 O0052008   11
+ANG-ERR    E-LVL                                                  O0052008   12
+ADEG       MEV                                                    O0052008   13
+        0.4         0.                                            O0052008   14
+ENDCOMMON            3                                            O0052008   15
+DATA                 4          9                                 O0052008   16
+ANG-CM     DATA       -DATA-ERR  +DATA-ERR                        O0052008   17
+ADEG       NO-DIM     NO-DIM     NO-DIM                           O0052008   18
+        4.4     -0.173 0.23  E-01 0.34  E-01                      O0052008   19
+        6.4     -0.172 0.34  E-01 0.26  E-01                      O0052008   20
+        8.3     -0.143 0.34  E-01 0.26  E-01                      O0052008   21
+       10.5 0.24  E-01 0.23  E-01 0.34  E-01                      O0052008   22
+       12.4      0.267 0.2   E-01 0.22  E-01                      O0052008   23
+       14.3       0.36 0.3   E-01 0.3   E-01                      O0052008   24
+       16.4      0.222 0.34  E-01 0.24  E-01                      O0052008   25
+       18.3 0.28  E-01 0.22  E-01 0.2   E-01                      O0052008   26
+       20.6-0.93  E-01 0.32  E-01 0.23  E-01                      O0052008   27
+ENDDATA             11                                            O0052008   28
+ENDSUBENT           27                                            O005200899999
+ENDENTRY             4                                            O005299999999
+ENDREQUEST           1                                            Z999999999999
