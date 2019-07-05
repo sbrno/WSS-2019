@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     26964,        561]
-NotebookOptionsPosition[     25945,        537]
-NotebookOutlinePosition[     26278,        552]
-CellTagsIndexPosition[     26235,        549]
+NotebookDataLength[     86146,       1333]
+NotebookOptionsPosition[     84031,       1290]
+NotebookOutlinePosition[     84582,       1311]
+CellTagsIndexPosition[     84494,       1306]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24,7 +24,8 @@ Cell[BoxData[{
    RowBox[{
    "URL", "[", 
     "\"\<https://www-nds.iaea.org/exfor/servlet/X4sShowData?db=x4&op=get_x4&\
-req=1012&ii=3&File=X4R1012_x4.txt\>\"", "]"}]}], ";"}], "\[IndentingNewLine]", 
+req=1064&ii=29&File=X4R1064_x4.txt\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"exforfile", " ", "=", " ", 
    RowBox[{"Import", "[", 
@@ -43,8 +44,9 @@ req=1012&ii=3&File=X4R1012_x4.txt\>\"", "]"}]}], ";"}], "\[IndentingNewLine]",
    3.771078195449285*^9, 3.771078199217852*^9}, 3.7710858764264383`*^9, 
    3.7711036533760157`*^9, 3.7711117288281393`*^9, 3.771116933192133*^9, 
    3.7711213505410557`*^9, {3.7711529327252007`*^9, 3.771152942867531*^9}, 
-   3.7711530310011253`*^9},
- CellLabel->"In[13]:=",ExpressionUUID->"9c1ea03f-289e-4543-b53c-479a674941e6"],
+   3.7711530310011253`*^9, 3.7711688480343103`*^9, 3.771169121510112*^9, 
+   3.771169645310049*^9},ExpressionUUID->"9c1ea03f-289e-4543-b53c-\
+479a674941e6"],
 
 Cell[CellGroupData[{
 
@@ -58,12 +60,13 @@ Cell[BoxData[{
        RowBox[{
         RowBox[{"AssociationThread", "[", 
          RowBox[{
-          RowBox[{"Flatten", "@", 
-           RowBox[{"Split", "@", 
-            RowBox[{"StringTake", "[", 
-             RowBox[{"#", " ", ",", 
-              RowBox[{"{", 
-               RowBox[{"13", ",", "17"}], "}"}]}], "]"}]}]}], ",", 
+          RowBox[{"\"\<ID\>\"", "->", 
+           RowBox[{"Flatten", "@", 
+            RowBox[{"Split", "@", 
+             RowBox[{"StringTake", "[", 
+              RowBox[{"#", " ", ",", 
+               RowBox[{"{", 
+                RowBox[{"13", ",", "17"}], "}"}]}], "]"}]}]}]}], ",", 
           RowBox[{
            RowBox[{"Split", "@", 
             RowBox[{"StringSplit", "[", 
@@ -71,8 +74,8 @@ Cell[BoxData[{
               RowBox[{
               "WordBoundary", "~~", "\"\<SUBENT\>\"", "~~", 
                "WordBoundary"}]}], "]"}]}], "#"}]}], " ", "]"}], "&"}], 
-       "}"}]}], "|>"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", "ExforFile"}], "Input",
+       "}"}]}], "|>"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"ExforFile", " "}]}], "Input",
  CellChangeTimes->{{3.7711121299380083`*^9, 3.771112172432857*^9}, {
    3.771114602938425*^9, 3.7711146711223183`*^9}, {3.771118194750402*^9, 
    3.771118211066963*^9}, {3.771119130334181*^9, 3.771119169447754*^9}, {
@@ -88,9 +91,10 @@ Cell[BoxData[{
    3.771154502701111*^9, 3.771154502976844*^9}, {3.7711545898401327`*^9, 
    3.771154596748197*^9}, {3.771155031527009*^9, 3.771155031871585*^9}, {
    3.771155098563355*^9, 3.771155101226634*^9}, {3.771158610986923*^9, 
-   3.771158618195047*^9}, {3.7711586583839006`*^9, 3.771158680219705*^9}},
- CellLabel->
-  "In[140]:=",ExpressionUUID->"027d40ed-4874-48ba-bf4f-829c923505d1"],
+   3.771158618195047*^9}, {3.7711586583839006`*^9, 3.771158680219705*^9}, 
+   3.771170401340352*^9, {3.771170883976199*^9, 3.771170914329934*^9}, {
+   3.7711734646998177`*^9, 3.7711734679404993`*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"027d40ed-4874-48ba-bf4f-829c923505d1"],
 
 Cell[BoxData[
  TemplateBox[{TagBox[
@@ -100,32 +104,34 @@ Cell[BoxData[
        "RowCount" -> 1, "Length" -> 1, "InitialType" -> TypeSystem`Assoc[
           TypeSystem`Atom[String], 
           TypeSystem`Vector[
-           TypeSystem`Assoc[
-            TypeSystem`Atom[
-             TypeSystem`Enumeration["E1230", "E1556", "O0052", "R0020"]], 
+           TypeSystem`Assoc[TypeSystem`AnyType, 
             TypeSystem`Vector[
-             TypeSystem`Vector[TypeSystem`AnyType, TypeSystem`AnyLength], 1], 
-            4], 1], 1], "Shape" -> TypeSystem`PackageScope`Limited[
+             TypeSystem`Vector[TypeSystem`AnyType, 5], 1], 1], 1], 1], 
+        "Shape" -> TypeSystem`PackageScope`Limited[
           TypeSystem`PackageScope`ColumnShape[
-           TypeSystem`PackageScope`Limited[
-            TypeSystem`PackageScope`ColumnShape[
-             TypeSystem`PackageScope`KeyValueShape[
-              TypeSystem`PackageScope`AtomShape[45.], 
+           TypeSystem`PackageScope`KeyValueShape[
+            TypeSystem`PackageScope`AtomShape[48.00000000000001], 
+            TypeSystem`PackageScope`Limited[
+             TypeSystem`PackageScope`ColumnShape[
               TypeSystem`PackageScope`Limited[
                TypeSystem`PackageScope`ColumnShape[
-               TypeSystem`PackageScope`UnknownShape], 1, {All, All}]]], 4, {
-            All}]], 1, {}], "InitialData" -> 
-        TypeSystem`PackageScope`CacheHandle[2043780902], "Type" -> 
-        TypeSystem`Vector[
-          TypeSystem`Assoc[
-           TypeSystem`Atom[
-            TypeSystem`Enumeration["E1230", "E1556", "O0052", "R0020"]], 
-           TypeSystem`Vector[
-            TypeSystem`Vector[TypeSystem`AnyType, TypeSystem`AnyLength], 1], 
-           4], 1], "HandleQ" -> True, "RowTarget" -> 20, "Data" -> 
-        TypeSystem`PackageScope`CacheHandle[425159071]], 
-      TypeSystem`NestedGrid`PackagePrivate`$path$$ = {
-        Key["Entry"]}, TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 1, 
+                TypeSystem`PackageScope`KeyValueShape[
+                TypeSystem`PackageScope`UnknownShape, 
+                 TypeSystem`PackageScope`Limited[
+                  TypeSystem`PackageScope`MatrixShape[1, 5], 1, {
+                  All, All, All, All}]]], 1, {All, All}]], 1, {All}]]], 
+          1, {}], "InitialData" -> 
+        TypeSystem`PackageScope`CacheHandle[123985852], "Type" -> 
+        TypeSystem`Assoc[
+          TypeSystem`Atom[String], 
+          TypeSystem`Vector[
+           TypeSystem`Assoc[TypeSystem`AnyType, 
+            TypeSystem`Vector[
+             TypeSystem`Vector[TypeSystem`AnyType, 5], 1], 1], 1], 1], 
+        "HandleQ" -> True, "RowTarget" -> 20, "Data" -> 
+        TypeSystem`PackageScope`CacheHandle[123985852]], 
+      TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
+      TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 1, 
       TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
       DynamicModule[{
         TypeSystem`NestedGrid`PackagePrivate`renderedGrid = Deploy[
@@ -136,9 +142,9 @@ Cell[BoxData[
                  Annotation[
                   EventHandler[
                    MouseAppearance[
-                    Mouseover["E1230", 
+                    Mouseover["Entry", 
                     Style[
-                    "E1230", FontColor -> 
+                    "Entry", FontColor -> 
                     RGBColor[
                     0.27450980392156865`, 0.5372549019607843, 
                     0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
@@ -146,199 +152,859 @@ Cell[BoxData[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                     TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 596951508][{
-                    
-                    Key["Entry"], 1, 
-                    Key["E1230"]}]], 
-                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[596951508][
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1631929393][{
+                    Key["Entry"]}]], 
+                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                  1631929393][
                    GeneralUtilities`Slice[
-                    Key["Entry"], 1, 
-                    Key["E1230"]]], "Mouse"], 
-                 ImageSize -> {{45., Full}, Automatic}], Background -> 
-                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
-               Item[
-                Annotation[
-                 EventHandler[
-                  MouseAppearance[
-                   Mouseover[
-                    Row[{"  { ", 
-                    Subscript["\[Ellipsis]", 4], " }  "}], 
-                    Style[
-                    Row[{"  { ", 
-                    Subscript["\[Ellipsis]", 4], " }  "}], FontColor -> 
-                    RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 596951508][{
-                    
-                    Key["Entry"], 1, 
-                    Key["E1230"], 1}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[596951508][
-                 
-                  GeneralUtilities`Slice[
-                   Key["Entry"], 1, 
-                   Key["E1230"], 1]], "Mouse"], BaseStyle -> {
-                  GrayLevel[0.5]}]}, {
+                    Key["Entry"]]], "Mouse"], 
+                 ImageSize -> {{48.00000000000001, Full}, Automatic}], 
+                Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
                Item[
                 Pane[
-                 Annotation[
-                  EventHandler[
-                   MouseAppearance[
-                    Mouseover["E1556", 
-                    Style[
-                    "E1556", FontColor -> 
-                    RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                   TypeSystem`NestedGrid`PackagePrivate`updateState[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 596951508][{
-                    
+                 Pane[
+                  Annotation[
+                   RawBoxes[
+                    StyleBox[
+                    RowBox[{"\"ID\"", "\[Rule]", 
+                    RowBox[{"{", 
+                    RowBox[{"\"E1230\"", ",", "\"E1556\"", ",", "\"O0052\""}],
+                     "}"}]}], FontFamily -> "Source Code Pro", FontSize -> 13,
+                     ShowStringCharacters -> True]], 
+                   TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                   1631929393][
+                    GeneralUtilities`Slice[
                     Key["Entry"], 1, 
-                    Key["E1556"]}]], 
-                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[596951508][
-                   GeneralUtilities`Slice[
-                    Key["Entry"], 1, 
-                    Key["E1556"]]], "Mouse"], 
-                 ImageSize -> {{45., Full}, Automatic}], Background -> 
+                    Key["ID" -> {"E1230", "E1556", "O0052"}]]], "Mouse"], 
+                  ImageSize -> {{60, Full}, Automatic}, 
+                  Alignment -> {Left, Baseline}], 
+                 ImageSize -> {{60, Full}, Automatic}], Background -> 
                 GrayLevel[0.95], Alignment -> {Left, Baseline}], 
-               Item[
+               Pane[
                 Annotation[
-                 EventHandler[
-                  MouseAppearance[
-                   Mouseover[
-                    Row[{"  { ", 
-                    Subscript["\[Ellipsis]", 6], " }  "}], 
-                    Style[
-                    Row[{"  { ", 
-                    Subscript["\[Ellipsis]", 6], " }  "}], FontColor -> 
-                    RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 596951508][{
-                    
-                    Key["Entry"], 1, 
-                    Key["E1556"], 1}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[596951508][
-                 
+                 RawBoxes[
+                  StyleBox[
+                   
+                   RowBox[{
+                    "\"            O0052     941103              20050926     \
+  0000O0052000    1\\n\"", " ", 
+                    "\"            O0052     941103              20050926     \
+  0000O0052000    1\\nSUBENT        O0052001     941103              20050926 \
+      0000O0052001    1\\nBIB                 10         19                   \
+              O0052001    2\\nTITLE      CROSS SECTION AND ANALYZING POWER \
+MEASUREMENTS FOR THE O0052001    3\\n            (P,D) REACTION ON O-16 AND \
+CA-40 AT 200 MEV.          O0052001    4\\nAUTHOR     \
+(R.ABEGG,D.A.HUTCHEON,C.A.MILLER,L.ANTONUK,J.M.GAMERON,O0052001    5\\n       \
+    G.GAILLARD,J.M.GREBEN,P.KITCHING,R.P.LILJESTRAND,      O0052001    6\\n   \
+        W.J.MCDONALD,W.C.OLSEN,G.M.STINSON,J.TINSLEY,P.D.KUNZ) O0052001    \
+7\\nINSTITUTE  (1CANUBC)                                              \
+O0052001    8\\n           (1CANALA)                                          \
+    O0052001    9\\n           (1USAORE)                                      \
+        O0052001   10\\n           (1USACLU)                                  \
+            O0052001   11\\nHISTORY    (941102C)                              \
+                O0052001   12\\n           (941219U)                          \
+                    O0052001   13\\nREFERENCE  (J,PR/C,39,65,89)              \
+                        O0052001   14\\nFACILITY   (CYCLO,1CANUBC)            \
+                            O0052001   15\\nDETECTOR   (MAGSP)                \
+                                O0052001   16\\nMETHOD     \
+(TOF).TIME-OF-FLIGHT AND ENERGY LOSS MEASUREMENTS      O0052001   17\\n       \
+    ALLOWED A CLEAN SEPARATION OF THE DEUTRONS FROM PROTONSO0052001   18\\n   \
+        AND TRITONS.                                           O0052001   \
+19\\nADD-RES    (COMP).DWBA CALCULATIONS.                              \
+O0052001   20\\nSTATUS     (CURVE).BY CAJAD.                                  \
+    O0052001   21\\nENDBIB              19                                    \
+        O0052001   22\\nCOMMON               1          3                     \
+            O0052001   23\\nEN                                                \
+                O0052001   24\\nMEV                                           \
+                    O0052001   25\\n       200.                               \
+                        O0052001   26\\nENDCOMMON            3                \
+                            O0052001   27\\nENDSUBENT           26            \
+                                O005200199999\\nSUBENT        O0052004     \
+941103              20050926       0000O0052004    1\\nBIB                  5 \
+         6                                 O0052004    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052004    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052004    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052004    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052004    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052004    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.  \
+            O0052004    8\\nENDBIB               6                            \
+                O0052004    9\\nCOMMON               3          3             \
+                    O0052004   10\\nDATA-ERR   E-LVL      ANG-ERR             \
+                        O0052004   11\\nPER-CENT   MEV        ADEG            \
+                            O0052004   12\\n        10.         0.        0.8 \
+                                O0052004   13\\nENDCOMMON            3        \
+                                    O0052004   14\\nDATA                 2    \
+      9                                 O0052004   15\\nANG-CM     DATA       \
+                                            O0052004   16\\nADEG       MB/SR  \
+                                                O0052004   17\\n         4.   \
+    2.22                                            O0052004   18\\n        \
+6.3       1.53                                            O0052004   19\\n    \
+    8.2       1.06                                            O0052004   \
+20\\n       10.5       0.61                                            \
+O0052004   21\\n       12.2       0.37                                        \
+    O0052004   22\\n       14.5      0.237                                    \
+        O0052004   23\\n       16.8      0.155                                \
+            O0052004   24\\n       18.6      0.113                            \
+                O0052004   25\\n       20.3 0.68  E-01                        \
+                    O0052004   26\\nENDDATA             11                    \
+                        O0052004   27\\nENDSUBENT           26                \
+                            O005200499999\\nSUBENT        O0052005     941103 \
+             20050926       0000O0052005    1\\nBIB                  5        \
+  6                                 O0052005    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052005    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052005    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=2.47,SPIN=0.5,PARITY=+1.)              \
+O0052005    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052005    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052005    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.  \
+            O0052005    8\\nENDBIB               6                            \
+                O0052005    9\\nCOMMON               3          3             \
+                    O0052005   10\\nDATA-ERR   E-LVL      ANG-ERR             \
+                        O0052005   11\\nPER-CENT   MEV        ADEG            \
+                            O0052005   12\\n        10.       2.47        0.8 \
+                                O0052005   13\\nENDCOMMON            3        \
+                                    O0052005   14\\nDATA                 2    \
+      9                                 O0052005   15\\nANG-CM     DATA       \
+                                            O0052005   16\\nADEG       MB/SR  \
+                                                O0052005   17\\n        4.3   \
+    1.17                                            O0052005   18\\n        \
+6.5       0.86                                            O0052005   19\\n    \
+    8.8       0.59                                            O0052005   \
+20\\n       11.1        0.4                                            \
+O0052005   21\\n       12.7      0.288                                        \
+    O0052005   22\\n       14.9      0.223                                    \
+        O0052005   23\\n       17.2      0.164                                \
+            O0052005   24\\n       19.5      0.104                            \
+                O0052005   25\\n       21.3 0.62  E-01                        \
+                    O0052005   26\\nENDDATA             11                    \
+                        O0052005   27\\nENDSUBENT           26                \
+                            O005200599999\\nSUBENT        O0052008     941103 \
+             20050926       0000O0052008    1\\nBIB                  5        \
+  7                                 O0052008    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,POL/DA,,ANA,EXP)            O0052008    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052008    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052008    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052008    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052008    7\\n           (+DATA-ERR).THE UNCERTAINTY IS REPORTED BY \
+AUTHORS.    O0052008    8\\n           (-DATA-ERR).SEE ABOVE.                 \
+                O0052008    9\\nENDBIB               7                        \
+                    O0052008   10\\nCOMMON               2          3         \
+                        O0052008   11\\nANG-ERR    E-LVL                      \
+                            O0052008   12\\nADEG       MEV                    \
+                                O0052008   13\\n        0.4         0.        \
+                                    O0052008   14\\nENDCOMMON            3    \
+                                        O0052008   15\\nDATA                 \
+4          9                                 O0052008   16\\nANG-CM     DATA  \
+     -DATA-ERR  +DATA-ERR                        O0052008   17\\nADEG       \
+NO-DIM     NO-DIM     NO-DIM                           O0052008   18\\n       \
+ 4.4     -0.173 0.23  E-01 0.34  E-01                      O0052008   19\\n   \
+     6.4     -0.172 0.34  E-01 0.26  E-01                      O0052008   \
+20\\n        8.3     -0.143 0.34  E-01 0.26  E-01                      \
+O0052008   21\\n       10.5 0.24  E-01 0.23  E-01 0.34  E-01                  \
+    O0052008   22\\n       12.4      0.267 0.2   E-01 0.22  E-01              \
+        O0052008   23\\n       14.3       0.36 0.3   E-01 0.3   E-01          \
+            O0052008   24\\n       16.4      0.222 0.34  E-01 0.24  E-01      \
+                O0052008   25\\n       18.3 0.28  E-01 0.22  E-01 0.2   E-01  \
+                    O0052008   26\\n       20.6-0.93  E-01 0.32  E-01 0.23  \
+E-01                      O0052008   27\\nENDDATA             11              \
+                              O0052008   28\\nENDSUBENT           27          \
+                                  O005200899999\\nENDENTRY             4      \
+                                      O005299999999\\nENDREQUEST           1  \
+                                          Z999999999999\""}], FontFamily -> 
+                   "Source Code Pro", FontSize -> 13, ShowStringCharacters -> 
+                   True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1631929393][
                   GeneralUtilities`Slice[
                    Key["Entry"], 1, 
-                   Key["E1556"], 1]], "Mouse"], BaseStyle -> {
-                  GrayLevel[0.5]}]}, {
-               Item[
-                Pane[
-                 Annotation[
-                  EventHandler[
-                   MouseAppearance[
-                    Mouseover["O0052", 
-                    Style[
-                    "O0052", FontColor -> 
-                    RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                   TypeSystem`NestedGrid`PackagePrivate`updateState[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 596951508][{
-                    
-                    Key["Entry"], 1, 
-                    Key["O0052"]}]], 
-                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[596951508][
-                   GeneralUtilities`Slice[
-                    Key["Entry"], 1, 
-                    Key["O0052"]]], "Mouse"], 
-                 ImageSize -> {{45., Full}, Automatic}], Background -> 
-                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
-               Item[
+                   Key["ID" -> {"E1230", "E1556", "O0052"}], 1, 1]], "Mouse"],
+                 ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
                 Annotation[
-                 EventHandler[
-                  MouseAppearance[
-                   Mouseover[
-                    Row[{"  { ", 
-                    Subscript["\[Ellipsis]", 6], " }  "}], 
-                    Style[
-                    Row[{"  { ", 
-                    Subscript["\[Ellipsis]", 6], " }  "}], FontColor -> 
-                    RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 596951508][{
-                    
-                    Key["Entry"], 1, 
-                    Key["O0052"], 1}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[596951508][
-                 
+                 RawBoxes[
+                  StyleBox[
+                   
+                   RowBox[{
+                    "\"        O0052001     941103              20050926      \
+ 0000O0052001    1\\nBIB                 10         19                        \
+         O0052001    2\\nTITLE      CROSS SECTION AND ANALYZING POWER \
+MEASUREMENTS FOR THE O0052001    3\\n            (P,D) REACTION ON O-16 AND \
+CA-40 AT 200 MEV.          O0052001    4\\nAUTHOR     \
+(R.ABEGG,D.A.HUTCHEON,C.A.MILLER,L.ANTONUK,J.M.GAMERON,O0052001    5\\n       \
+    G.GAILLARD,J.M.GREBEN,P.KITCHING,R.P.LILJESTRAND,      O0052001    6\\n   \
+        W.J.MCDONALD,W.C.OLSEN,G.M.STINSON,J.TINSLEY,P.D.KUNZ) O0052001    \
+7\\nINSTITUTE  (1CANUBC)                                              \
+O0052001    8\\n           (1CANALA)                                          \
+    O0052001    9\\n           (1USAORE)                                      \
+        O0052001   10\\n           (1USACLU)                                  \
+            O0052001   11\\nHISTORY    (941102C)                              \
+                O0052001   12\\n           (941219U)                          \
+                    O0052001   13\\nREFERENCE  (J,PR/C,39,65,89)              \
+                        O0052001   14\\nFACILITY   (CYCLO,1CANUBC)            \
+                            O0052001   15\\nDETECTOR   (MAGSP)                \
+                                O0052001   16\\nMETHOD     \
+(TOF).TIME-OF-FLIGHT AND ENERGY LOSS MEASUREMENTS      O0052001   17\\n       \
+    ALLOWED A CLEAN SEPARATION OF THE DEUTRONS FROM PROTONSO0052001   18\\n   \
+        AND TRITONS.                                           O0052001   \
+19\\nADD-RES    (COMP).DWBA CALCULATIONS.                              \
+O0052001   20\\nSTATUS     (CURVE).BY CAJAD.                                  \
+    O0052001   21\\nENDBIB              19                                    \
+        O0052001   22\\nCOMMON               1          3                     \
+            O0052001   23\\nEN                                                \
+                O0052001   24\\nMEV                                           \
+                    O0052001   25\\n       200.                               \
+                        O0052001   26\\nENDCOMMON            3                \
+                            O0052001   27\\nENDSUBENT           26            \
+                                O005200199999\\n\"", " ", 
+                    "\"            O0052     941103              20050926     \
+  0000O0052000    1\\nSUBENT        O0052001     941103              20050926 \
+      0000O0052001    1\\nBIB                 10         19                   \
+              O0052001    2\\nTITLE      CROSS SECTION AND ANALYZING POWER \
+MEASUREMENTS FOR THE O0052001    3\\n            (P,D) REACTION ON O-16 AND \
+CA-40 AT 200 MEV.          O0052001    4\\nAUTHOR     \
+(R.ABEGG,D.A.HUTCHEON,C.A.MILLER,L.ANTONUK,J.M.GAMERON,O0052001    5\\n       \
+    G.GAILLARD,J.M.GREBEN,P.KITCHING,R.P.LILJESTRAND,      O0052001    6\\n   \
+        W.J.MCDONALD,W.C.OLSEN,G.M.STINSON,J.TINSLEY,P.D.KUNZ) O0052001    \
+7\\nINSTITUTE  (1CANUBC)                                              \
+O0052001    8\\n           (1CANALA)                                          \
+    O0052001    9\\n           (1USAORE)                                      \
+        O0052001   10\\n           (1USACLU)                                  \
+            O0052001   11\\nHISTORY    (941102C)                              \
+                O0052001   12\\n           (941219U)                          \
+                    O0052001   13\\nREFERENCE  (J,PR/C,39,65,89)              \
+                        O0052001   14\\nFACILITY   (CYCLO,1CANUBC)            \
+                            O0052001   15\\nDETECTOR   (MAGSP)                \
+                                O0052001   16\\nMETHOD     \
+(TOF).TIME-OF-FLIGHT AND ENERGY LOSS MEASUREMENTS      O0052001   17\\n       \
+    ALLOWED A CLEAN SEPARATION OF THE DEUTRONS FROM PROTONSO0052001   18\\n   \
+        AND TRITONS.                                           O0052001   \
+19\\nADD-RES    (COMP).DWBA CALCULATIONS.                              \
+O0052001   20\\nSTATUS     (CURVE).BY CAJAD.                                  \
+    O0052001   21\\nENDBIB              19                                    \
+        O0052001   22\\nCOMMON               1          3                     \
+            O0052001   23\\nEN                                                \
+                O0052001   24\\nMEV                                           \
+                    O0052001   25\\n       200.                               \
+                        O0052001   26\\nENDCOMMON            3                \
+                            O0052001   27\\nENDSUBENT           26            \
+                                O005200199999\\nSUBENT        O0052004     \
+941103              20050926       0000O0052004    1\\nBIB                  5 \
+         6                                 O0052004    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052004    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052004    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052004    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052004    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052004    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.  \
+            O0052004    8\\nENDBIB               6                            \
+                O0052004    9\\nCOMMON               3          3             \
+                    O0052004   10\\nDATA-ERR   E-LVL      ANG-ERR             \
+                        O0052004   11\\nPER-CENT   MEV        ADEG            \
+                            O0052004   12\\n        10.         0.        0.8 \
+                                O0052004   13\\nENDCOMMON            3        \
+                                    O0052004   14\\nDATA                 2    \
+      9                                 O0052004   15\\nANG-CM     DATA       \
+                                            O0052004   16\\nADEG       MB/SR  \
+                                                O0052004   17\\n         4.   \
+    2.22                                            O0052004   18\\n        \
+6.3       1.53                                            O0052004   19\\n    \
+    8.2       1.06                                            O0052004   \
+20\\n       10.5       0.61                                            \
+O0052004   21\\n       12.2       0.37                                        \
+    O0052004   22\\n       14.5      0.237                                    \
+        O0052004   23\\n       16.8      0.155                                \
+            O0052004   24\\n       18.6      0.113                            \
+                O0052004   25\\n       20.3 0.68  E-01                        \
+                    O0052004   26\\nENDDATA             11                    \
+                        O0052004   27\\nENDSUBENT           26                \
+                            O005200499999\\nSUBENT        O0052005     941103 \
+             20050926       0000O0052005    1\\nBIB                  5        \
+  6                                 O0052005    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052005    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052005    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=2.47,SPIN=0.5,PARITY=+1.)              \
+O0052005    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052005    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052005    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.  \
+            O0052005    8\\nENDBIB               6                            \
+                O0052005    9\\nCOMMON               3          3             \
+                    O0052005   10\\nDATA-ERR   E-LVL      ANG-ERR             \
+                        O0052005   11\\nPER-CENT   MEV        ADEG            \
+                            O0052005   12\\n        10.       2.47        0.8 \
+                                O0052005   13\\nENDCOMMON            3        \
+                                    O0052005   14\\nDATA                 2    \
+      9                                 O0052005   15\\nANG-CM     DATA       \
+                                            O0052005   16\\nADEG       MB/SR  \
+                                                O0052005   17\\n        4.3   \
+    1.17                                            O0052005   18\\n        \
+6.5       0.86                                            O0052005   19\\n    \
+    8.8       0.59                                            O0052005   \
+20\\n       11.1        0.4                                            \
+O0052005   21\\n       12.7      0.288                                        \
+    O0052005   22\\n       14.9      0.223                                    \
+        O0052005   23\\n       17.2      0.164                                \
+            O0052005   24\\n       19.5      0.104                            \
+                O0052005   25\\n       21.3 0.62  E-01                        \
+                    O0052005   26\\nENDDATA             11                    \
+                        O0052005   27\\nENDSUBENT           26                \
+                            O005200599999\\nSUBENT        O0052008     941103 \
+             20050926       0000O0052008    1\\nBIB                  5        \
+  7                                 O0052008    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,POL/DA,,ANA,EXP)            O0052008    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052008    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052008    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052008    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052008    7\\n           (+DATA-ERR).THE UNCERTAINTY IS REPORTED BY \
+AUTHORS.    O0052008    8\\n           (-DATA-ERR).SEE ABOVE.                 \
+                O0052008    9\\nENDBIB               7                        \
+                    O0052008   10\\nCOMMON               2          3         \
+                        O0052008   11\\nANG-ERR    E-LVL                      \
+                            O0052008   12\\nADEG       MEV                    \
+                                O0052008   13\\n        0.4         0.        \
+                                    O0052008   14\\nENDCOMMON            3    \
+                                        O0052008   15\\nDATA                 \
+4          9                                 O0052008   16\\nANG-CM     DATA  \
+     -DATA-ERR  +DATA-ERR                        O0052008   17\\nADEG       \
+NO-DIM     NO-DIM     NO-DIM                           O0052008   18\\n       \
+ 4.4     -0.173 0.23  E-01 0.34  E-01                      O0052008   19\\n   \
+     6.4     -0.172 0.34  E-01 0.26  E-01                      O0052008   \
+20\\n        8.3     -0.143 0.34  E-01 0.26  E-01                      \
+O0052008   21\\n       10.5 0.24  E-01 0.23  E-01 0.34  E-01                  \
+    O0052008   22\\n       12.4      0.267 0.2   E-01 0.22  E-01              \
+        O0052008   23\\n       14.3       0.36 0.3   E-01 0.3   E-01          \
+            O0052008   24\\n       16.4      0.222 0.34  E-01 0.24  E-01      \
+                O0052008   25\\n       18.3 0.28  E-01 0.22  E-01 0.2   E-01  \
+                    O0052008   26\\n       20.6-0.93  E-01 0.32  E-01 0.23  \
+E-01                      O0052008   27\\nENDDATA             11              \
+                              O0052008   28\\nENDSUBENT           27          \
+                                  O005200899999\\nENDENTRY             4      \
+                                      O005299999999\\nENDREQUEST           1  \
+                                          Z999999999999\""}], FontFamily -> 
+                   "Source Code Pro", FontSize -> 13, ShowStringCharacters -> 
+                   True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1631929393][
                   GeneralUtilities`Slice[
                    Key["Entry"], 1, 
-                   Key["O0052"], 1]], "Mouse"], BaseStyle -> {
-                  GrayLevel[0.5]}]}, {
-               Item[
-                Pane[
-                 Annotation[
-                  EventHandler[
-                   MouseAppearance[
-                    Mouseover["R0020", 
-                    Style[
-                    "R0020", FontColor -> 
-                    RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                   TypeSystem`NestedGrid`PackagePrivate`updateState[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 596951508][{
-                    
-                    Key["Entry"], 1, 
-                    Key["R0020"]}]], 
-                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[596951508][
-                   GeneralUtilities`Slice[
-                    Key["Entry"], 1, 
-                    Key["R0020"]]], "Mouse"], 
-                 ImageSize -> {{45., Full}, Automatic}], Background -> 
-                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
-               Item[
+                   Key["ID" -> {"E1230", "E1556", "O0052"}], 1, 2]], "Mouse"],
+                 ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
                 Annotation[
-                 EventHandler[
-                  MouseAppearance[
-                   Mouseover[
-                    Row[{"  { ", 
-                    Subscript["\[Ellipsis]", 3], " }  "}], 
-                    Style[
-                    Row[{"  { ", 
-                    Subscript["\[Ellipsis]", 3], " }  "}], FontColor -> 
-                    RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 596951508][{
+                 RawBoxes[
+                  StyleBox[
+                   
+                   RowBox[{
+                    "\"        O0052004     941103              20050926      \
+ 0000O0052004    1\\nBIB                  5          6                        \
+         O0052004    2\\nREACTION   (20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)      \
+             O0052004    3\\nSAMPLE      50.3 MG/CM**2 THICK NATURAL CA WAS \
+USED.              O0052004    4\\nLEVEL-PROP \
+(20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                O0052004    5\\nEN-SEC \
+    (E-LVL,20-CA-39)                                       O0052004    \
+6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.               \
+O0052004    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.          \
+    O0052004    8\\nENDBIB               6                                    \
+        O0052004    9\\nCOMMON               3          3                     \
+            O0052004   10\\nDATA-ERR   E-LVL      ANG-ERR                     \
+                O0052004   11\\nPER-CENT   MEV        ADEG                    \
+                    O0052004   12\\n        10.         0.        0.8         \
+                        O0052004   13\\nENDCOMMON            3                \
+                            O0052004   14\\nDATA                 2          9 \
+                                O0052004   15\\nANG-CM     DATA               \
+                                    O0052004   16\\nADEG       MB/SR          \
+                                        O0052004   17\\n         4.       \
+2.22                                            O0052004   18\\n        6.3   \
+    1.53                                            O0052004   19\\n        \
+8.2       1.06                                            O0052004   20\\n    \
+   10.5       0.61                                            O0052004   \
+21\\n       12.2       0.37                                            \
+O0052004   22\\n       14.5      0.237                                        \
+    O0052004   23\\n       16.8      0.155                                    \
+        O0052004   24\\n       18.6      0.113                                \
+            O0052004   25\\n       20.3 0.68  E-01                            \
+                O0052004   26\\nENDDATA             11                        \
+                    O0052004   27\\nENDSUBENT           26                    \
+                        O005200499999\\n\"", " ", 
                     
-                    Key["Entry"], 1, 
-                    Key["R0020"], 1}]], 
-                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[596951508][
-                 
+                    "\"            O0052     941103              20050926     \
+  0000O0052000    1\\nSUBENT        O0052001     941103              20050926 \
+      0000O0052001    1\\nBIB                 10         19                   \
+              O0052001    2\\nTITLE      CROSS SECTION AND ANALYZING POWER \
+MEASUREMENTS FOR THE O0052001    3\\n            (P,D) REACTION ON O-16 AND \
+CA-40 AT 200 MEV.          O0052001    4\\nAUTHOR     \
+(R.ABEGG,D.A.HUTCHEON,C.A.MILLER,L.ANTONUK,J.M.GAMERON,O0052001    5\\n       \
+    G.GAILLARD,J.M.GREBEN,P.KITCHING,R.P.LILJESTRAND,      O0052001    6\\n   \
+        W.J.MCDONALD,W.C.OLSEN,G.M.STINSON,J.TINSLEY,P.D.KUNZ) O0052001    \
+7\\nINSTITUTE  (1CANUBC)                                              \
+O0052001    8\\n           (1CANALA)                                          \
+    O0052001    9\\n           (1USAORE)                                      \
+        O0052001   10\\n           (1USACLU)                                  \
+            O0052001   11\\nHISTORY    (941102C)                              \
+                O0052001   12\\n           (941219U)                          \
+                    O0052001   13\\nREFERENCE  (J,PR/C,39,65,89)              \
+                        O0052001   14\\nFACILITY   (CYCLO,1CANUBC)            \
+                            O0052001   15\\nDETECTOR   (MAGSP)                \
+                                O0052001   16\\nMETHOD     \
+(TOF).TIME-OF-FLIGHT AND ENERGY LOSS MEASUREMENTS      O0052001   17\\n       \
+    ALLOWED A CLEAN SEPARATION OF THE DEUTRONS FROM PROTONSO0052001   18\\n   \
+        AND TRITONS.                                           O0052001   \
+19\\nADD-RES    (COMP).DWBA CALCULATIONS.                              \
+O0052001   20\\nSTATUS     (CURVE).BY CAJAD.                                  \
+    O0052001   21\\nENDBIB              19                                    \
+        O0052001   22\\nCOMMON               1          3                     \
+            O0052001   23\\nEN                                                \
+                O0052001   24\\nMEV                                           \
+                    O0052001   25\\n       200.                               \
+                        O0052001   26\\nENDCOMMON            3                \
+                            O0052001   27\\nENDSUBENT           26            \
+                                O005200199999\\nSUBENT        O0052004     \
+941103              20050926       0000O0052004    1\\nBIB                  5 \
+         6                                 O0052004    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052004    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052004    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052004    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052004    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052004    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.  \
+            O0052004    8\\nENDBIB               6                            \
+                O0052004    9\\nCOMMON               3          3             \
+                    O0052004   10\\nDATA-ERR   E-LVL      ANG-ERR             \
+                        O0052004   11\\nPER-CENT   MEV        ADEG            \
+                            O0052004   12\\n        10.         0.        0.8 \
+                                O0052004   13\\nENDCOMMON            3        \
+                                    O0052004   14\\nDATA                 2    \
+      9                                 O0052004   15\\nANG-CM     DATA       \
+                                            O0052004   16\\nADEG       MB/SR  \
+                                                O0052004   17\\n         4.   \
+    2.22                                            O0052004   18\\n        \
+6.3       1.53                                            O0052004   19\\n    \
+    8.2       1.06                                            O0052004   \
+20\\n       10.5       0.61                                            \
+O0052004   21\\n       12.2       0.37                                        \
+    O0052004   22\\n       14.5      0.237                                    \
+        O0052004   23\\n       16.8      0.155                                \
+            O0052004   24\\n       18.6      0.113                            \
+                O0052004   25\\n       20.3 0.68  E-01                        \
+                    O0052004   26\\nENDDATA             11                    \
+                        O0052004   27\\nENDSUBENT           26                \
+                            O005200499999\\nSUBENT        O0052005     941103 \
+             20050926       0000O0052005    1\\nBIB                  5        \
+  6                                 O0052005    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052005    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052005    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=2.47,SPIN=0.5,PARITY=+1.)              \
+O0052005    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052005    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052005    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.  \
+            O0052005    8\\nENDBIB               6                            \
+                O0052005    9\\nCOMMON               3          3             \
+                    O0052005   10\\nDATA-ERR   E-LVL      ANG-ERR             \
+                        O0052005   11\\nPER-CENT   MEV        ADEG            \
+                            O0052005   12\\n        10.       2.47        0.8 \
+                                O0052005   13\\nENDCOMMON            3        \
+                                    O0052005   14\\nDATA                 2    \
+      9                                 O0052005   15\\nANG-CM     DATA       \
+                                            O0052005   16\\nADEG       MB/SR  \
+                                                O0052005   17\\n        4.3   \
+    1.17                                            O0052005   18\\n        \
+6.5       0.86                                            O0052005   19\\n    \
+    8.8       0.59                                            O0052005   \
+20\\n       11.1        0.4                                            \
+O0052005   21\\n       12.7      0.288                                        \
+    O0052005   22\\n       14.9      0.223                                    \
+        O0052005   23\\n       17.2      0.164                                \
+            O0052005   24\\n       19.5      0.104                            \
+                O0052005   25\\n       21.3 0.62  E-01                        \
+                    O0052005   26\\nENDDATA             11                    \
+                        O0052005   27\\nENDSUBENT           26                \
+                            O005200599999\\nSUBENT        O0052008     941103 \
+             20050926       0000O0052008    1\\nBIB                  5        \
+  7                                 O0052008    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,POL/DA,,ANA,EXP)            O0052008    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052008    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052008    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052008    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052008    7\\n           (+DATA-ERR).THE UNCERTAINTY IS REPORTED BY \
+AUTHORS.    O0052008    8\\n           (-DATA-ERR).SEE ABOVE.                 \
+                O0052008    9\\nENDBIB               7                        \
+                    O0052008   10\\nCOMMON               2          3         \
+                        O0052008   11\\nANG-ERR    E-LVL                      \
+                            O0052008   12\\nADEG       MEV                    \
+                                O0052008   13\\n        0.4         0.        \
+                                    O0052008   14\\nENDCOMMON            3    \
+                                        O0052008   15\\nDATA                 \
+4          9                                 O0052008   16\\nANG-CM     DATA  \
+     -DATA-ERR  +DATA-ERR                        O0052008   17\\nADEG       \
+NO-DIM     NO-DIM     NO-DIM                           O0052008   18\\n       \
+ 4.4     -0.173 0.23  E-01 0.34  E-01                      O0052008   19\\n   \
+     6.4     -0.172 0.34  E-01 0.26  E-01                      O0052008   \
+20\\n        8.3     -0.143 0.34  E-01 0.26  E-01                      \
+O0052008   21\\n       10.5 0.24  E-01 0.23  E-01 0.34  E-01                  \
+    O0052008   22\\n       12.4      0.267 0.2   E-01 0.22  E-01              \
+        O0052008   23\\n       14.3       0.36 0.3   E-01 0.3   E-01          \
+            O0052008   24\\n       16.4      0.222 0.34  E-01 0.24  E-01      \
+                O0052008   25\\n       18.3 0.28  E-01 0.22  E-01 0.2   E-01  \
+                    O0052008   26\\n       20.6-0.93  E-01 0.32  E-01 0.23  \
+E-01                      O0052008   27\\nENDDATA             11              \
+                              O0052008   28\\nENDSUBENT           27          \
+                                  O005200899999\\nENDENTRY             4      \
+                                      O005299999999\\nENDREQUEST           1  \
+                                          Z999999999999\""}], FontFamily -> 
+                   "Source Code Pro", FontSize -> 13, ShowStringCharacters -> 
+                   True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1631929393][
                   GeneralUtilities`Slice[
                    Key["Entry"], 1, 
-                   Key["R0020"], 1]], "Mouse"], BaseStyle -> {
-                  GrayLevel[0.5]}]}}, BaseStyle -> {ContextMenu -> {
+                   Key["ID" -> {"E1230", "E1556", "O0052"}], 1, 3]], "Mouse"],
+                 ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes[
+                  StyleBox[
+                   
+                   RowBox[{
+                    "\"        O0052005     941103              20050926      \
+ 0000O0052005    1\\nBIB                  5          6                        \
+         O0052005    2\\nREACTION   (20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)      \
+             O0052005    3\\nSAMPLE      50.3 MG/CM**2 THICK NATURAL CA WAS \
+USED.              O0052005    4\\nLEVEL-PROP \
+(20-CA-39,E-LVL=2.47,SPIN=0.5,PARITY=+1.)              O0052005    5\\nEN-SEC \
+    (E-LVL,20-CA-39)                                       O0052005    \
+6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.               \
+O0052005    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.          \
+    O0052005    8\\nENDBIB               6                                    \
+        O0052005    9\\nCOMMON               3          3                     \
+            O0052005   10\\nDATA-ERR   E-LVL      ANG-ERR                     \
+                O0052005   11\\nPER-CENT   MEV        ADEG                    \
+                    O0052005   12\\n        10.       2.47        0.8         \
+                        O0052005   13\\nENDCOMMON            3                \
+                            O0052005   14\\nDATA                 2          9 \
+                                O0052005   15\\nANG-CM     DATA               \
+                                    O0052005   16\\nADEG       MB/SR          \
+                                        O0052005   17\\n        4.3       \
+1.17                                            O0052005   18\\n        6.5   \
+    0.86                                            O0052005   19\\n        \
+8.8       0.59                                            O0052005   20\\n    \
+   11.1        0.4                                            O0052005   \
+21\\n       12.7      0.288                                            \
+O0052005   22\\n       14.9      0.223                                        \
+    O0052005   23\\n       17.2      0.164                                    \
+        O0052005   24\\n       19.5      0.104                                \
+            O0052005   25\\n       21.3 0.62  E-01                            \
+                O0052005   26\\nENDDATA             11                        \
+                    O0052005   27\\nENDSUBENT           26                    \
+                        O005200599999\\n\"", " ", 
+                    "\"            O0052     941103              20050926     \
+  0000O0052000    1\\nSUBENT        O0052001     941103              20050926 \
+      0000O0052001    1\\nBIB                 10         19                   \
+              O0052001    2\\nTITLE      CROSS SECTION AND ANALYZING POWER \
+MEASUREMENTS FOR THE O0052001    3\\n            (P,D) REACTION ON O-16 AND \
+CA-40 AT 200 MEV.          O0052001    4\\nAUTHOR     \
+(R.ABEGG,D.A.HUTCHEON,C.A.MILLER,L.ANTONUK,J.M.GAMERON,O0052001    5\\n       \
+    G.GAILLARD,J.M.GREBEN,P.KITCHING,R.P.LILJESTRAND,      O0052001    6\\n   \
+        W.J.MCDONALD,W.C.OLSEN,G.M.STINSON,J.TINSLEY,P.D.KUNZ) O0052001    \
+7\\nINSTITUTE  (1CANUBC)                                              \
+O0052001    8\\n           (1CANALA)                                          \
+    O0052001    9\\n           (1USAORE)                                      \
+        O0052001   10\\n           (1USACLU)                                  \
+            O0052001   11\\nHISTORY    (941102C)                              \
+                O0052001   12\\n           (941219U)                          \
+                    O0052001   13\\nREFERENCE  (J,PR/C,39,65,89)              \
+                        O0052001   14\\nFACILITY   (CYCLO,1CANUBC)            \
+                            O0052001   15\\nDETECTOR   (MAGSP)                \
+                                O0052001   16\\nMETHOD     \
+(TOF).TIME-OF-FLIGHT AND ENERGY LOSS MEASUREMENTS      O0052001   17\\n       \
+    ALLOWED A CLEAN SEPARATION OF THE DEUTRONS FROM PROTONSO0052001   18\\n   \
+        AND TRITONS.                                           O0052001   \
+19\\nADD-RES    (COMP).DWBA CALCULATIONS.                              \
+O0052001   20\\nSTATUS     (CURVE).BY CAJAD.                                  \
+    O0052001   21\\nENDBIB              19                                    \
+        O0052001   22\\nCOMMON               1          3                     \
+            O0052001   23\\nEN                                                \
+                O0052001   24\\nMEV                                           \
+                    O0052001   25\\n       200.                               \
+                        O0052001   26\\nENDCOMMON            3                \
+                            O0052001   27\\nENDSUBENT           26            \
+                                O005200199999\\nSUBENT        O0052004     \
+941103              20050926       0000O0052004    1\\nBIB                  5 \
+         6                                 O0052004    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052004    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052004    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052004    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052004    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052004    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.  \
+            O0052004    8\\nENDBIB               6                            \
+                O0052004    9\\nCOMMON               3          3             \
+                    O0052004   10\\nDATA-ERR   E-LVL      ANG-ERR             \
+                        O0052004   11\\nPER-CENT   MEV        ADEG            \
+                            O0052004   12\\n        10.         0.        0.8 \
+                                O0052004   13\\nENDCOMMON            3        \
+                                    O0052004   14\\nDATA                 2    \
+      9                                 O0052004   15\\nANG-CM     DATA       \
+                                            O0052004   16\\nADEG       MB/SR  \
+                                                O0052004   17\\n         4.   \
+    2.22                                            O0052004   18\\n        \
+6.3       1.53                                            O0052004   19\\n    \
+    8.2       1.06                                            O0052004   \
+20\\n       10.5       0.61                                            \
+O0052004   21\\n       12.2       0.37                                        \
+    O0052004   22\\n       14.5      0.237                                    \
+        O0052004   23\\n       16.8      0.155                                \
+            O0052004   24\\n       18.6      0.113                            \
+                O0052004   25\\n       20.3 0.68  E-01                        \
+                    O0052004   26\\nENDDATA             11                    \
+                        O0052004   27\\nENDSUBENT           26                \
+                            O005200499999\\nSUBENT        O0052005     941103 \
+             20050926       0000O0052005    1\\nBIB                  5        \
+  6                                 O0052005    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052005    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052005    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=2.47,SPIN=0.5,PARITY=+1.)              \
+O0052005    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052005    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052005    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.  \
+            O0052005    8\\nENDBIB               6                            \
+                O0052005    9\\nCOMMON               3          3             \
+                    O0052005   10\\nDATA-ERR   E-LVL      ANG-ERR             \
+                        O0052005   11\\nPER-CENT   MEV        ADEG            \
+                            O0052005   12\\n        10.       2.47        0.8 \
+                                O0052005   13\\nENDCOMMON            3        \
+                                    O0052005   14\\nDATA                 2    \
+      9                                 O0052005   15\\nANG-CM     DATA       \
+                                            O0052005   16\\nADEG       MB/SR  \
+                                                O0052005   17\\n        4.3   \
+    1.17                                            O0052005   18\\n        \
+6.5       0.86                                            O0052005   19\\n    \
+    8.8       0.59                                            O0052005   \
+20\\n       11.1        0.4                                            \
+O0052005   21\\n       12.7      0.288                                        \
+    O0052005   22\\n       14.9      0.223                                    \
+        O0052005   23\\n       17.2      0.164                                \
+            O0052005   24\\n       19.5      0.104                            \
+                O0052005   25\\n       21.3 0.62  E-01                        \
+                    O0052005   26\\nENDDATA             11                    \
+                        O0052005   27\\nENDSUBENT           26                \
+                            O005200599999\\nSUBENT        O0052008     941103 \
+             20050926       0000O0052008    1\\nBIB                  5        \
+  7                                 O0052008    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,POL/DA,,ANA,EXP)            O0052008    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052008    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052008    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052008    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052008    7\\n           (+DATA-ERR).THE UNCERTAINTY IS REPORTED BY \
+AUTHORS.    O0052008    8\\n           (-DATA-ERR).SEE ABOVE.                 \
+                O0052008    9\\nENDBIB               7                        \
+                    O0052008   10\\nCOMMON               2          3         \
+                        O0052008   11\\nANG-ERR    E-LVL                      \
+                            O0052008   12\\nADEG       MEV                    \
+                                O0052008   13\\n        0.4         0.        \
+                                    O0052008   14\\nENDCOMMON            3    \
+                                        O0052008   15\\nDATA                 \
+4          9                                 O0052008   16\\nANG-CM     DATA  \
+     -DATA-ERR  +DATA-ERR                        O0052008   17\\nADEG       \
+NO-DIM     NO-DIM     NO-DIM                           O0052008   18\\n       \
+ 4.4     -0.173 0.23  E-01 0.34  E-01                      O0052008   19\\n   \
+     6.4     -0.172 0.34  E-01 0.26  E-01                      O0052008   \
+20\\n        8.3     -0.143 0.34  E-01 0.26  E-01                      \
+O0052008   21\\n       10.5 0.24  E-01 0.23  E-01 0.34  E-01                  \
+    O0052008   22\\n       12.4      0.267 0.2   E-01 0.22  E-01              \
+        O0052008   23\\n       14.3       0.36 0.3   E-01 0.3   E-01          \
+            O0052008   24\\n       16.4      0.222 0.34  E-01 0.24  E-01      \
+                O0052008   25\\n       18.3 0.28  E-01 0.22  E-01 0.2   E-01  \
+                    O0052008   26\\n       20.6-0.93  E-01 0.32  E-01 0.23  \
+E-01                      O0052008   27\\nENDDATA             11              \
+                              O0052008   28\\nENDSUBENT           27          \
+                                  O005200899999\\nENDENTRY             4      \
+                                      O005299999999\\nENDREQUEST           1  \
+                                          Z999999999999\""}], FontFamily -> 
+                   "Source Code Pro", FontSize -> 13, ShowStringCharacters -> 
+                   True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1631929393][
+                  GeneralUtilities`Slice[
+                   Key["Entry"], 1, 
+                   Key["ID" -> {"E1230", "E1556", "O0052"}], 1, 4]], "Mouse"],
+                 ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes[
+                  StyleBox[
+                   
+                   RowBox[{
+                    "\"        O0052008     941103              20050926      \
+ 0000O0052008    1\\nBIB                  5          7                        \
+         O0052008    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,POL/DA,,ANA,EXP)            O0052008    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052008    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052008    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052008    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052008    7\\n           (+DATA-ERR).THE UNCERTAINTY IS REPORTED BY \
+AUTHORS.    O0052008    8\\n           (-DATA-ERR).SEE ABOVE.                 \
+                O0052008    9\\nENDBIB               7                        \
+                    O0052008   10\\nCOMMON               2          3         \
+                        O0052008   11\\nANG-ERR    E-LVL                      \
+                            O0052008   12\\nADEG       MEV                    \
+                                O0052008   13\\n        0.4         0.        \
+                                    O0052008   14\\nENDCOMMON            3    \
+                                        O0052008   15\\nDATA                 \
+4          9                                 O0052008   16\\nANG-CM     DATA  \
+     -DATA-ERR  +DATA-ERR                        O0052008   17\\nADEG       \
+NO-DIM     NO-DIM     NO-DIM                           O0052008   18\\n       \
+ 4.4     -0.173 0.23  E-01 0.34  E-01                      O0052008   19\\n   \
+     6.4     -0.172 0.34  E-01 0.26  E-01                      O0052008   \
+20\\n        8.3     -0.143 0.34  E-01 0.26  E-01                      \
+O0052008   21\\n       10.5 0.24  E-01 0.23  E-01 0.34  E-01                  \
+    O0052008   22\\n       12.4      0.267 0.2   E-01 0.22  E-01              \
+        O0052008   23\\n       14.3       0.36 0.3   E-01 0.3   E-01          \
+            O0052008   24\\n       16.4      0.222 0.34  E-01 0.24  E-01      \
+                O0052008   25\\n       18.3 0.28  E-01 0.22  E-01 0.2   E-01  \
+                    O0052008   26\\n       20.6-0.93  E-01 0.32  E-01 0.23  \
+E-01                      O0052008   27\\nENDDATA             11              \
+                              O0052008   28\\nENDSUBENT           27          \
+                                  O005200899999\\nENDENTRY             4      \
+                                      O005299999999\\nENDREQUEST           1  \
+                                          Z999999999999\"", " ", 
+                    "\"            O0052     941103              20050926     \
+  0000O0052000    1\\nSUBENT        O0052001     941103              20050926 \
+      0000O0052001    1\\nBIB                 10         19                   \
+              O0052001    2\\nTITLE      CROSS SECTION AND ANALYZING POWER \
+MEASUREMENTS FOR THE O0052001    3\\n            (P,D) REACTION ON O-16 AND \
+CA-40 AT 200 MEV.          O0052001    4\\nAUTHOR     \
+(R.ABEGG,D.A.HUTCHEON,C.A.MILLER,L.ANTONUK,J.M.GAMERON,O0052001    5\\n       \
+    G.GAILLARD,J.M.GREBEN,P.KITCHING,R.P.LILJESTRAND,      O0052001    6\\n   \
+        W.J.MCDONALD,W.C.OLSEN,G.M.STINSON,J.TINSLEY,P.D.KUNZ) O0052001    \
+7\\nINSTITUTE  (1CANUBC)                                              \
+O0052001    8\\n           (1CANALA)                                          \
+    O0052001    9\\n           (1USAORE)                                      \
+        O0052001   10\\n           (1USACLU)                                  \
+            O0052001   11\\nHISTORY    (941102C)                              \
+                O0052001   12\\n           (941219U)                          \
+                    O0052001   13\\nREFERENCE  (J,PR/C,39,65,89)              \
+                        O0052001   14\\nFACILITY   (CYCLO,1CANUBC)            \
+                            O0052001   15\\nDETECTOR   (MAGSP)                \
+                                O0052001   16\\nMETHOD     \
+(TOF).TIME-OF-FLIGHT AND ENERGY LOSS MEASUREMENTS      O0052001   17\\n       \
+    ALLOWED A CLEAN SEPARATION OF THE DEUTRONS FROM PROTONSO0052001   18\\n   \
+        AND TRITONS.                                           O0052001   \
+19\\nADD-RES    (COMP).DWBA CALCULATIONS.                              \
+O0052001   20\\nSTATUS     (CURVE).BY CAJAD.                                  \
+    O0052001   21\\nENDBIB              19                                    \
+        O0052001   22\\nCOMMON               1          3                     \
+            O0052001   23\\nEN                                                \
+                O0052001   24\\nMEV                                           \
+                    O0052001   25\\n       200.                               \
+                        O0052001   26\\nENDCOMMON            3                \
+                            O0052001   27\\nENDSUBENT           26            \
+                                O005200199999\\nSUBENT        O0052004     \
+941103              20050926       0000O0052004    1\\nBIB                  5 \
+         6                                 O0052004    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052004    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052004    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052004    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052004    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052004    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.  \
+            O0052004    8\\nENDBIB               6                            \
+                O0052004    9\\nCOMMON               3          3             \
+                    O0052004   10\\nDATA-ERR   E-LVL      ANG-ERR             \
+                        O0052004   11\\nPER-CENT   MEV        ADEG            \
+                            O0052004   12\\n        10.         0.        0.8 \
+                                O0052004   13\\nENDCOMMON            3        \
+                                    O0052004   14\\nDATA                 2    \
+      9                                 O0052004   15\\nANG-CM     DATA       \
+                                            O0052004   16\\nADEG       MB/SR  \
+                                                O0052004   17\\n         4.   \
+    2.22                                            O0052004   18\\n        \
+6.3       1.53                                            O0052004   19\\n    \
+    8.2       1.06                                            O0052004   \
+20\\n       10.5       0.61                                            \
+O0052004   21\\n       12.2       0.37                                        \
+    O0052004   22\\n       14.5      0.237                                    \
+        O0052004   23\\n       16.8      0.155                                \
+            O0052004   24\\n       18.6      0.113                            \
+                O0052004   25\\n       20.3 0.68  E-01                        \
+                    O0052004   26\\nENDDATA             11                    \
+                        O0052004   27\\nENDSUBENT           26                \
+                            O005200499999\\nSUBENT        O0052005     941103 \
+             20050926       0000O0052005    1\\nBIB                  5        \
+  6                                 O0052005    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,DA,,,EXP)                   O0052005    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052005    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=2.47,SPIN=0.5,PARITY=+1.)              \
+O0052005    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052005    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052005    7\\n           (DATA-ERR).DATA-POINT READER UNCERTAINTY.  \
+            O0052005    8\\nENDBIB               6                            \
+                O0052005    9\\nCOMMON               3          3             \
+                    O0052005   10\\nDATA-ERR   E-LVL      ANG-ERR             \
+                        O0052005   11\\nPER-CENT   MEV        ADEG            \
+                            O0052005   12\\n        10.       2.47        0.8 \
+                                O0052005   13\\nENDCOMMON            3        \
+                                    O0052005   14\\nDATA                 2    \
+      9                                 O0052005   15\\nANG-CM     DATA       \
+                                            O0052005   16\\nADEG       MB/SR  \
+                                                O0052005   17\\n        4.3   \
+    1.17                                            O0052005   18\\n        \
+6.5       0.86                                            O0052005   19\\n    \
+    8.8       0.59                                            O0052005   \
+20\\n       11.1        0.4                                            \
+O0052005   21\\n       12.7      0.288                                        \
+    O0052005   22\\n       14.9      0.223                                    \
+        O0052005   23\\n       17.2      0.164                                \
+            O0052005   24\\n       19.5      0.104                            \
+                O0052005   25\\n       21.3 0.62  E-01                        \
+                    O0052005   26\\nENDDATA             11                    \
+                        O0052005   27\\nENDSUBENT           26                \
+                            O005200599999\\nSUBENT        O0052008     941103 \
+             20050926       0000O0052008    1\\nBIB                  5        \
+  7                                 O0052008    2\\nREACTION   \
+(20-CA-40(P,D)20-CA-39,PAR,POL/DA,,ANA,EXP)            O0052008    3\\nSAMPLE \
+     50.3 MG/CM**2 THICK NATURAL CA WAS USED.              O0052008    \
+4\\nLEVEL-PROP (20-CA-39,E-LVL=0.,SPIN=1.5,PARITY=+1.)                \
+O0052008    5\\nEN-SEC     (E-LVL,20-CA-39)                                   \
+    O0052008    6\\nERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.       \
+        O0052008    7\\n           (+DATA-ERR).THE UNCERTAINTY IS REPORTED BY \
+AUTHORS.    O0052008    8\\n           (-DATA-ERR).SEE ABOVE.                 \
+                O0052008    9\\nENDBIB               7                        \
+                    O0052008   10\\nCOMMON               2          3         \
+                        O0052008   11\\nANG-ERR    E-LVL                      \
+                            O0052008   12\\nADEG       MEV                    \
+                                O0052008   13\\n        0.4         0.        \
+                                    O0052008   14\\nENDCOMMON            3    \
+                                        O0052008   15\\nDATA                 \
+4          9                                 O0052008   16\\nANG-CM     DATA  \
+     -DATA-ERR  +DATA-ERR                        O0052008   17\\nADEG       \
+NO-DIM     NO-DIM     NO-DIM                           O0052008   18\\n       \
+ 4.4     -0.173 0.23  E-01 0.34  E-01                      O0052008   19\\n   \
+     6.4     -0.172 0.34  E-01 0.26  E-01                      O0052008   \
+20\\n        8.3     -0.143 0.34  E-01 0.26  E-01                      \
+O0052008   21\\n       10.5 0.24  E-01 0.23  E-01 0.34  E-01                  \
+    O0052008   22\\n       12.4      0.267 0.2   E-01 0.22  E-01              \
+        O0052008   23\\n       14.3       0.36 0.3   E-01 0.3   E-01          \
+            O0052008   24\\n       16.4      0.222 0.34  E-01 0.24  E-01      \
+                O0052008   25\\n       18.3 0.28  E-01 0.22  E-01 0.2   E-01  \
+                    O0052008   26\\n       20.6-0.93  E-01 0.32  E-01 0.23  \
+E-01                      O0052008   27\\nENDDATA             11              \
+                              O0052008   28\\nENDSUBENT           27          \
+                                  O005200899999\\nENDENTRY             4      \
+                                      O005299999999\\nENDREQUEST           1  \
+                                          Z999999999999\""}], FontFamily -> 
+                   "Source Code Pro", FontSize -> 13, ShowStringCharacters -> 
+                   True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1631929393][
+                  GeneralUtilities`Slice[
+                   Key["Entry"], 1, 
+                   Key["ID" -> {"E1230", "E1556", "O0052"}], 1, 5]], "Mouse"],
+                 ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}]}}, BaseStyle -> {ContextMenu -> {
                  MenuItem["Copy position to clipboard", 
                   KernelExecute[
                    TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
@@ -367,7 +1033,7 @@ Cell[BoxData[
             LineBreakWithin -> False, ContextMenu -> {}, NumberMarks -> False,
              ShowAutoStyles -> False]], 
          TypeSystem`NestedGrid`PackagePrivate`initialQ = True, 
-         TypeSystem`NestedGrid`PackagePrivate`self = BoxObject[192337]}, 
+         TypeSystem`NestedGrid`PackagePrivate`self = $Failed}, 
         Dynamic[
          TypeSystem`NestedGrid`PackagePrivate`setupViewPath[
          TypeSystem`NestedGrid`PackagePrivate`$path$$, If[
@@ -385,7 +1051,7 @@ Cell[BoxData[
                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
                  TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 596951508][
+                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1631929393][
                 TypeSystem`NestedGrid`PackagePrivate`tmpData$]]; If[
                Not[
                 FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]], 
@@ -416,14 +1082,14 @@ Cell[BoxData[
            TypeSystem`NestedGrid`PackagePrivate`$state$$, 
             TypeSystem`NestedGrid`PackagePrivate`$path$$, 
             TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
-            TypeSystem`NestedGrid`PackagePrivate`$grid$$, 596951508]]]], 
+            TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1631929393]]]], 
         TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$path$$}], 
       TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$ = Framed[
         Dynamic[
          Replace[
           MouseAnnotation[Null], {
-          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[596951508][Null] -> 
-           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[596951508][
+          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1631929393][Null] -> 
+           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1631929393][
              Pattern[TypeSystem`NestedGrid`PackagePrivate`path, 
               Blank[]]] :> (
             TypeSystem`NestedGrid`PackagePrivate`$lastPath = 
@@ -457,7 +1123,7 @@ Cell[BoxData[
            TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$]]}], Spacings -> 
         If[TypeSystem`NestedGrid`PackagePrivate`$path$$ == {}, 
           0, {{}, {0, 0.05, 0}}]], StandardForm], 
-      ImageSizeCache -> {116., {64., 71.}}, 
+      ImageSizeCache -> {3066., {17.5, 24.5}}, 
       TrackedSymbols :> {
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
@@ -480,9 +1146,10 @@ Cell[BoxData[
    3.771154438627555*^9}, {3.771154469445218*^9, 3.771154503749523*^9}, {
    3.771154592455228*^9, 3.7711545974688377`*^9}, {3.771154795871619*^9, 
    3.7711548295353937`*^9}, 3.771154940569582*^9, 3.77115510258644*^9, 
-   3.771158620910725*^9, {3.771158660291998*^9, 3.771158680564846*^9}},
- CellLabel->
-  "Out[141]=",ExpressionUUID->"975e3e62-0b06-43f2-a096-b6d81e9aeb8f"]
+   3.771158620910725*^9, {3.771158660291998*^9, 3.771158680564846*^9}, 
+   3.771168710353696*^9, 3.771168796425901*^9, 3.771168850874157*^9, {
+   3.7711708860127077`*^9, 3.771170914786824*^9}, 3.771173468322307*^9},
+ CellLabel->"Out[41]=",ExpressionUUID->"9ebc1e11-b16c-4595-9077-b14129c93485"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -533,9 +1200,95 @@ In[38]:=",ExpressionUUID->"ba74eb96-f8ec-4406-9372-f4982789293c"],
 Cell[BoxData["$Failed"], "Output",
  CellChangeTimes->{{3.771153395520852*^9, 3.771153485074685*^9}},
  CellLabel->"Out[38]=",ExpressionUUID->"f4a6655a-87a1-4acd-a299-8cf56feb91f0"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.7711703516975*^9, 
+  3.771170360380102*^9}},ExpressionUUID->"ae2d91fd-1f9f-4762-843f-\
+f2afdcaebf82"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Needs", "[", "\"\<XML`\>\"", "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.771170409297875*^9, 3.7711704312868767`*^9}, {
+  3.771170467301136*^9, 
+  3.771170479429872*^9}},ExpressionUUID->"e8203fa7-9084-4625-be7b-\
+d51a0b5e3aa9"],
+
+Cell[BoxData[
+ RowBox[{"ToSymbolicXML", "[", 
+  RowBox[{"Import", "[", 
+   RowBox[{
+   "\"\<https://www-nds.iaea.org/exfor/servlet/X4sShowXML?db=x4&op=get_\
+x4plus2&req=1065&ii=31&File=X4R1065_x4.txt&xsl=02&Title=EXFOR%20Request%20%\
+231065\>\"", ",", "\"\<XML\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.771170481283886*^9, 3.771170498156478*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"aca5230c-9ac0-4885-913b-06fb201634d0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Quantity", "[", 
+  RowBox[{"\"\<1\>\"", ",", "\"\<]\>"}]}]], "Input",
+ CellChangeTimes->{{3.7711718811878567`*^9, 3.771171889135687*^9}, {
+  3.771172132866288*^9, 
+  3.771172185314402*^9}},ExpressionUUID->"554944c9-108c-4a70-9b40-\
+642387f3ef7d"],
+
+Cell[BoxData[
+ RowBox[{"Quantity", "[", 
+  RowBox[{"\<\"1\"\>", ",", "None"}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.7711718894388437`*^9, {3.7711721359070377`*^9, 3.771172161208744*^9}},
+ CellLabel->"Out[39]=",ExpressionUUID->"4c444f0c-06c4-4bcc-ac1f-ed812a25f879"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"?", " ", "Function"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.77117660500741*^9, 3.771176608618932*^9}},
+ CellLabel->"In[44]:=",ExpressionUUID->"d608b639-e859-4954-9874-223c87df11e6"],
+
+Cell[BoxData[
+ RowBox[{"\<\"\\!\\(\\*RowBox[{\\\"Function\\\", \\\"[\\\", StyleBox[\\\"body\
+\\\", \\\"TI\\\"], \\\"]\\\"}]\\) or \\!\\(\\*RowBox[{StyleBox[\\\"body\\\", \
+\\\"TI\\\"], \\\"&\\\"}]\\) is a pure (or \\\"anonymous\\\") function. The \
+formal parameters are # (or #1), #2, etc. \
+\\n\\!\\(\\*RowBox[{\\\"Function\\\", \\\"[\\\", RowBox[{StyleBox[\\\"x\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"body\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) \
+is a pure function with a single formal parameter \
+\\!\\(\\*StyleBox[\\\"x\\\", \\\"TI\\\"]\\). \\n\\!\\(\\*RowBox[{\\\"Function\
+\\\", \\\"[\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"body\\\", \\\"TI\\\"]}], \\\
+\"]\\\"}]\\) is a pure function with a list of formal parameters. \
+\\n\\!\\(\\*RowBox[{\\\"Function\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"params\\\", \\\"TI\\\"], \\\",\\\", \
+StyleBox[\\\"body\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"attrs\\\", \\\"TI\
+\\\"]}], \\\"]\\\"}]\\) is a pure function that is treated as having \
+attributes \\!\\(\\*StyleBox[\\\"attrs\\\", \\\"TI\\\"]\\) for purposes of \
+evaluation.\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:ref/Function"]}]], "Print", "PrintUsage",
+ CellChangeTimes->{3.771176609257391*^9},
+ CellTags->
+  "Info443771162209-1531373",ExpressionUUID->"da7a3280-9694-472a-abf8-\
+2adbd59ffce0"]
+}, Open  ]],
+
+Cell[BoxData["Guide"], "Input",
+ CellChangeTimes->{{3.771176671405002*^9, 
+  3.7711766750950108`*^9}},ExpressionUUID->"c5256300-b7b3-4bfb-8409-\
+5c2a89cff0d0"]
 },
-WindowSize->{1440, 755},
+WindowSize->{720, 753},
 WindowMargins->{{0, Automatic}, {0, Automatic}},
 FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb"
@@ -544,25 +1297,44 @@ StyleDefinitions->"Default.nb"
 
 (* Internal cache information *)
 (*CellTagsOutline
-CellTagsIndex->{}
+CellTagsIndex->{
+ "Info443771162209-1531373"->{
+  Cell[82175, 1253, 1678, 29, 173, "Print",ExpressionUUID->"da7a3280-9694-472a-abf8-2adbd59ffce0",
+   CellTags->"Info443771162209-1531373"]}
+ }
 *)
 (*CellTagsIndex
-CellTagsIndex->{}
+CellTagsIndex->{
+ {"Info443771162209-1531373", 84329, 1300}
+ }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 1113, 26, 78, "Input",ExpressionUUID->"9c1ea03f-289e-4543-b53c-479a674941e6"],
+Cell[558, 20, 1167, 28, 193, "Input",ExpressionUUID->"9c1ea03f-289e-4543-b53c-479a674941e6"],
 Cell[CellGroupData[{
-Cell[1696, 50, 2122, 42, 55, "Input",ExpressionUUID->"027d40ed-4874-48ba-bf4f-829c923505d1"],
-Cell[3821, 94, 20214, 390, 154, "Output",ExpressionUUID->"975e3e62-0b06-43f2-a096-b6d81e9aeb8f"]
+Cell[1750, 52, 2305, 44, 170, "Input",ExpressionUUID->"027d40ed-4874-48ba-bf4f-829c923505d1"],
+Cell[4058, 98, 74507, 1053, 61, "Output",ExpressionUUID->"9ebc1e11-b16c-4595-9077-b14129c93485"]
 }, Open  ]],
-Cell[24050, 487, 398, 8, 31, "Input",ExpressionUUID->"1fa7fa9c-1008-410f-9a94-a24f47574cab"],
+Cell[78580, 1154, 398, 8, 31, "Input",ExpressionUUID->"1fa7fa9c-1008-410f-9a94-a24f47574cab"],
 Cell[CellGroupData[{
-Cell[24473, 499, 447, 8, 55, "Input",ExpressionUUID->"1f93609f-3faa-47bb-ad48-ab0af9d90c9c"],
-Cell[24923, 509, 334, 8, 23, "Message",ExpressionUUID->"cbf76068-cabd-4249-9481-c87a1dcbe2b3"],
-Cell[25260, 519, 487, 11, 23, "Message",ExpressionUUID->"ba74eb96-f8ec-4406-9372-f4982789293c"],
-Cell[25750, 532, 179, 2, 35, "Output",ExpressionUUID->"f4a6655a-87a1-4acd-a299-8cf56feb91f0"]
-}, Open  ]]
+Cell[79003, 1166, 447, 8, 101, "Input",ExpressionUUID->"1f93609f-3faa-47bb-ad48-ab0af9d90c9c"],
+Cell[79453, 1176, 334, 8, 23, "Message",ExpressionUUID->"cbf76068-cabd-4249-9481-c87a1dcbe2b3"],
+Cell[79790, 1186, 487, 11, 23, "Message",ExpressionUUID->"ba74eb96-f8ec-4406-9372-f4982789293c"],
+Cell[80280, 1199, 179, 2, 35, "Output",ExpressionUUID->"f4a6655a-87a1-4acd-a299-8cf56feb91f0"]
+}, Open  ]],
+Cell[80474, 1204, 150, 3, 31, "Input",ExpressionUUID->"ae2d91fd-1f9f-4762-843f-f2afdcaebf82"],
+Cell[80627, 1209, 264, 6, 31, "Input",ExpressionUUID->"e8203fa7-9084-4625-be7b-d51a0b5e3aa9"],
+Cell[80894, 1217, 437, 8, 101, "Input",ExpressionUUID->"aca5230c-9ac0-4885-913b-06fb201634d0"],
+Cell[CellGroupData[{
+Cell[81356, 1229, 270, 6, 31, "Input",ExpressionUUID->"554944c9-108c-4a70-9b40-642387f3ef7d"],
+Cell[81629, 1237, 270, 5, 35, "Output",ExpressionUUID->"4c444f0c-06c4-4bcc-ac1f-ed812a25f879"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[81936, 1247, 236, 4, 55, "Input",ExpressionUUID->"d608b639-e859-4954-9874-223c87df11e6"],
+Cell[82175, 1253, 1678, 29, 173, "Print",ExpressionUUID->"da7a3280-9694-472a-abf8-2adbd59ffce0",
+ CellTags->"Info443771162209-1531373"]
+}, Open  ]],
+Cell[83868, 1285, 159, 3, 31, "Input",ExpressionUUID->"c5256300-b7b3-4bfb-8409-5c2a89cff0d0"]
 }
 ]
 *)
